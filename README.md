@@ -1,70 +1,37 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Jammin: A React Application
 
-## Available Scripts
+Jammin is a React Application created as part of my Web Development Certification and serves as my first dive into REACT.js as well as the combined use with JS, HTML, AND CSS. This application allows user to access spotify API and search songs, add them to a playlist, and create one for their use in spotify.
 
-In the project directory, you can run:
 
-### `npm start`
+## 🚀 About Me
+I'm a recent college graduate with a degree in Media Arts & Science currently shifting careers from Game Development to Web Design. Any and all feedback is appreciated on anything that I create as improvement is a never-ending journey.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Directions For Project Use
+Unforuantely due to security risk, I cannot deploy this website to the web with my information included. But the project still runs on your computer locally with the following steps:
 
-### `npm test`
+1: Ensure the localhost:3000 port is open for use. This is because my API redirects you to this port after authorization.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2: Create a Spotify API Account at https://developer.spotify.com
 
-### `npm run build`
+3: Create An App And Grab Your ClientID and ClientSecret from the page. DO NOT SHARE THESE WITH ANYONE.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4: In my project, access AuthenticationKey.js and set clientID to your personal ClientID. Do the same for clientSecret.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5: Install Node if you haven't already. Navigate to the application folder and use the command "npm start" to run the application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6: Enjoy as you can now search the top 10 songs from the serach query and create a playlist!
+## Feedback
 
-### `npm run eject`
+If you have any feedback, please reach out to us at bscottlewis04@gmail.com
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## FAQ
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Question 1
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Will This Page Become Styled In The Future?
 
-## Learn More
+Yes. For now, I wanted to pump this out with functionality over form. Getting the project to work and displaying my understanding was more important to me than styling when developing. In the future I will come back to style and make this page look better!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
