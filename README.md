@@ -19,7 +19,7 @@ Unforuantely due to security risk, I cannot deploy this website to the web with 
 
 4: In my project, access AuthenticationKey.js and set clientID to your personal ClientID. Do the same for clientSecret.
 
-5: Install Node if you haven't already. Navigate to the application folder and use the command "npm start" to run the application
+5: Install Node if you haven't already. Navigate to the application folder (which should just be the root folder you download from this project) and use the command "npm start" to run the application
 
 6: Enjoy as you can now search the top 10 songs from the serach query and create a playlist!
 ## Feedback
